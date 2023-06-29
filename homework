@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home Work W2</title>
+</head>
+<body>
+    <script type="text/javascript">
+       var num_1, num_2,result_m, result_de, result_Mul, result_p;
+       num_1 = prompt("Enter First Number: ");
+       num_2 = prompt("Enter Second Number: ");
+       result_p = Number(num_1) + Number(num_2);
+       result_m = Number(num_1) - Number(num_2);
+       result_Mul = Number(num_1) * Number(num_2);
+       result_de = Number(num_1) / Number(num_2);
+       document.write(num_1 + " + " + num_2 + " = " + Number(result_p) + "<br>");
+       document.write(num_1 + " - " + num_2 + " = " + Number(result_m) + "<br>");
+       document.write(num_1 + " x " + num_2 + " = " + Number(result_Mul) + "<br>");
+       document.write(num_1 + " / " + num_2 + " = " + Number(result_de) + "<br>");
+    </script>
+</body>
+</html>
